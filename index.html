@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SystemJS example</title>
+    <script src="jspm_packages/system-csp-production.js"></script>
+    <script src="config.js"></script>
+    <script src="bundle.js"></script>
+    <script>
+    console.log("DOM is Not ready.");
+    System.import("main.js");
+    </script>
+</head>
+
+<body>
+    <div class="wpplugin">
+        WordPress plugin's output
+    </div>
+</body>
+</html>

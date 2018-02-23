@@ -1,0 +1,2 @@
+.wpplugin { font-weight: bold; }
+.wpplugin:after { content: ' + stylesheet'; }
