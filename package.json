@@ -1,4 +1,11 @@
 {
+  "name": "systemjs-example",
+  "description": "Usage example for conditional loading in WordPress websites",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szepeviktor/systemjs-example.git"
+  },
   "jspm": {
     "dependencies": {
       "css": "github:systemjs/plugin-css@^0.1.36",
@@ -19,5 +26,7 @@
   "dependencies": {
     "jspm": "^0.16.53"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
